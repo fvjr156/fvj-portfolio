@@ -29,6 +29,11 @@ a {
     z-index: 10;
 }
 
+.navig-brandname {
+    float: left;
+    padding: 1.5em 3em;
+}
+
 .navig-ul {
     display: flex;
     gap: 0.5em;
@@ -51,6 +56,10 @@ a {
 
 .hero-div-leftside * {
     padding-bottom: 0.4em;
+}
+
+.hero-div-leftside {
+    margin-bottom: 1em;
 }
 
 .hero-div {
