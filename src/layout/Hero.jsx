@@ -56,7 +56,7 @@ const Hero = function ({ themeMode }) {
             </Button>
           </Grid>
           <Grid item xs={12} md={4} sx={{ order: { xs: 1, md: 2 }, justifyContent: "center", display: "flex", alignItems: "center", }} >
-            <img src={hero_inf.avatar} alt="My Avatar" style={{ width: (isMobile ? "50%" : "100%"), maxWidth: "340px", height: "auto", borderRadius: '10%'}} />
+            <img loading="lazy" src={hero_inf.avatar} alt="My Avatar" style={{ width: (isMobile ? "50%" : "100%"), maxWidth: "340px", height: "auto", borderRadius: '10%'}} />
           </Grid>
         </Grid>
       </Container>
