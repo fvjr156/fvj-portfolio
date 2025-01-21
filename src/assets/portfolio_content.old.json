@@ -1,0 +1,104 @@
+{
+  "app_name": "FVJ Portfolio",
+  "user_inf": {
+    "full_name": "Fernando T. Villanueva, Jr.",
+    "location": "San Mateo, Rizal, Philippines",
+    "work_email": "juniorvillanueva156@outlook.com",
+    "social_media_accounts": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/fvillanuevajr156/",
+        "icon": "./assets/linkedin.svg",
+        "description": "Fernando Jr. Villanueva — fvillanuevajr156"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/fvjr156/",
+        "icon": "./assets/ghub.png",
+        "description": "fvjr156"
+      }
+    ],
+    "personal_addition" : [
+      { "Languages": "Filipino (Native), English (B2)" }
+    ]
+  },
+  "hero_inf": {
+    "header_text": "Hi, I'm Fernando Jr. Villanueva",
+    "header_caption": "I'm a student, a full-stack web developer, and a programming hobbyist.",
+    "header_dlbtn_caption": "Download my CV",
+    "avatar": "assets/6d4c681fafe45069bb044bb032f72553.png",
+    "resume": "assets/resume.pdf",
+    "resume_filetitle": "FVJPortfolio010125Update.pdf"
+  },
+  "activity_inf": [
+    {
+      "name": "Web Development",
+      "description": "Building and designing functional, scalable web-based applications, utilizing modern frameworks like React and Node.js.",
+      "icon": "",
+      "materialIcon": "<LanguageIcon fontSize=\"large\" color=\"primary\" />"
+    },
+    {
+      "name": "Mobile Development",
+      "description": "Creating mobile applications for Android with Java. Designing intuitive mobile application user interfaces.",
+      "icon": "",
+      "materialIcon": "<PhoneAndroidIcon fontSize=\"large\" color=\"primary\" />"
+    },
+    {
+      "name": "Programming Enthusiast",
+      "description": "Exploring languages like Python, C++, C#, and Rust; frameworks like Laravel, Actix, and ASP.NET. Setup and installation of OSes like Windows 10/11, and Linux distros such as Kali and Arch.",
+      "icon": "",
+      "materialIcon": "<ComputerIcon fontSize=\"large\" color=\"primary\" />"
+    }
+  ],
+  "skills_inf": {
+    "grad_img": "assets/2c3a3f99ef228ed2598b9447c42b265a.png",
+    "education": [
+      {
+        "institution": "STI College Marikina",
+        "field": "Bachelor of Science in Computer Science (2024 - present)",
+        "cert_image": ""
+      },
+      {
+        "institution": "STI College Marikina",
+        "field": "IT in Mobile App and Web Development Strand (2022 - 2024)",
+        "cert_image": ""
+      },
+      {
+        "institution": "Silangan National High School",
+        "field": "Junior High School (2018 - 2022)",
+        "cert_image": ""
+      }
+    ],
+    "achievements": [
+      {
+        "institution": "HackerRank",
+        "cert_name": "Java (Basic)",
+        "cert_img": "assets/0ffbf21d6ccaf38567de33fa9c81e9fd.png"
+      },
+      {
+        "institution": "HackerRank",
+        "cert_name": "React (Basic)",
+        "cert_img": "assets/423f72bc1083faf9b3ceed52c5ac6b22.png"
+      },
+      {
+        "institution": "STI College Marikina",
+        "cert_name": "Senior High School Expo 2024: IT Booth - Best in Communication, Best Use of Expo Theme",
+        "cert_img": "assets/3336d297eb965fa382965eb00b757003.jpg"
+      }
+    ]
+  },
+  "projects_inf": [
+    {
+      "project_name": "ArciFS",
+      "project_description": "Automated Forms Response Collection and Monitoring System",
+      "repo_link": "https://github.com/fvjr156/arcifs",
+      "image": "assets/dbb1c015a0f8931f0a862db7493216b7.png"
+    },
+    {
+      "project_name": "Vremia",
+      "project_description": "Digital Time Management Application",
+      "repo_link": "https://github.com/fvjr156/Vremia",
+      "image": "assets/6187dad700ac45c1e03e92d45ec7ed23.png"
+    }
+  ]
+}
