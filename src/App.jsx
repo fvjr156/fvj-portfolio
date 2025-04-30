@@ -7,7 +7,7 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-import portfolio_content from './assets/portfolio_content.old.json'
+import portfolio_content from './assets/portfolio_content.json'
 
 const Hero = lazy(() => import('./layout/Hero'));
 const AboutMe = lazy(() => import('./layout/AboutMe'));

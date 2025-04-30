@@ -11,7 +11,7 @@ export const MyThemes = {
         h3: { fontFamily: "Gabarito, serif", fontSize: "2.5rem" },
         h4: { fontFamily: "Gabarito, serif", fontSize: "2rem" },
         h5: { fontFamily: "Gabarito, serif", fontSize: "1.75rem" },
-        h6: { fontFamily: "Gabarito, serif", fontSize: "1.2rem" },
+        h6: { fontFamily: "Gabarito, serif", fontSize: "1.3rem" },
         subtitle1: { fontFamily: "Inter, Arial, sans-serif" },
         subtitle2: { fontFamily: "Inter, Arial, sans-serif" },
         body1: { fontFamily: "Inter, Arial, sans-serif", fontSize: "1rem" },
@@ -21,8 +21,8 @@ export const MyThemes = {
         overline: { fontFamily: "Inter, Arial, sans-serif" },
       },
       palette: {
-        primary: { main: "#acc3e6" },
-        background: { default: "#c8dbf7" },
+        primary: { main: "#e0dab5" },
+        background: { default: "#e8e3c2" },
         text: { primary: "#1f2e37", primaryNegative: "#e0e0e0" },
       },
       components: {
@@ -49,7 +49,7 @@ export const MyThemes = {
         h3: { fontFamily: "Gabarito, serif", fontSize: "2.5rem" },
         h4: { fontFamily: "Gabarito, serif", fontSize: "2rem" },
         h5: { fontFamily: "Gabarito, serif", fontSize: "1.75rem" },
-        h6: { fontFamily: "Gabarito, serif", fontSize: "1.5rem" },
+        h6: { fontFamily: "Gabarito, serif", fontSize: "1.3rem" },
         subtitle1: { fontFamily: "Inter, Arial, sans-serif" },
         subtitle2: { fontFamily: "Inter, Arial, sans-serif" },
         body1: { fontFamily: "Inter, Arial, sans-serif", fontSize: "1rem" },
@@ -59,8 +59,8 @@ export const MyThemes = {
         overline: { fontFamily: "Inter, Arial, sans-serif" },
       },
       palette: {
-        primary: { main: "#2a333b" },
-        background: { default: "#182426" },
+        primary: { main: "#5e0807" },
+        background: { default: "#4c0403" },
         text: { primary: "#e0e0e0", primaryNegative: "#1f2e37" },
       },
       components: {

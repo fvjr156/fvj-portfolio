@@ -1,16 +1,13 @@
-import portfolio_content from "../assets/portfolio_content.old.json";
+import portfolio_content from "../assets/portfolio_content.json";
 import {
   Box,
   Typography,
-  Paper,
-  Link,
   Container,
   useMediaQuery,
-  useTheme,
   Grid,
   Button,
 } from "@mui/material";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import FileDownloadSharpIcon from "@mui/icons-material/FileDownloadSharp";
 
 const getDarkerShade = (color, factor) => {
@@ -19,12 +16,12 @@ const getDarkerShade = (color, factor) => {
 };
 
 const Hero = function ({ themeMode }) {
-  const { hero_inf } = portfolio_content;
+  const { hero } = portfolio_content;
   const isMobile = useMediaQuery('(max-width:600px)');
 
   const downloadMyResume = () => {
     const link = document.createElement("a");
-    link.href = hero_inf.resume;
+    link.href = hero.resume;
     link.target = '_blank';
     link.rel = 'noopener noreferrer'
     document.body.appendChild(link);
@@ -46,17 +43,17 @@ const Hero = function ({ themeMode }) {
         <Grid container direction="row" spacing={6} sx={{ justifyContent: "space-between", alignItems: 'center' }} >
           <Grid item xs={12} md={8} sx={{ order: { xs: 2, md: 1 }, alignContent: "center", textAlign: { xs: "center", md: "left" }, }} >
             <Typography variant={isMobile ? "h4" : "h3"} fontWeight={400} gutterBottom>
-              {hero_inf.header_text}
+              {hero.header_text}
             </Typography>
             <Typography variant={isMobile ? "h6" : "h5"} fontWeight={400}>
-              {hero_inf.header_caption}
+              {hero.header_caption}
             </Typography>
             <Button startIcon={<FileDownloadSharpIcon />} color="primary" size="large" variant="contained" onClick={downloadMyResume} sx={{ mt: 3 }} >
               Download my Resume
             </Button>
           </Grid>
           <Grid item xs={12} md={4} sx={{ order: { xs: 1, md: 2 }, justifyContent: "center", display: "flex", alignItems: "center", }} >
-            <img loading="lazy" src={hero_inf.avatar} alt="My Avatar" style={{ width: (isMobile ? "50%" : "100%"), maxWidth: "340px", height: "auto", borderRadius: '10%'}} />
+            <img loading="lazy" src={hero.avatar} alt="My Avatar" style={{ width: (isMobile ? "50%" : "100%"), maxWidth: "340px", height: "auto", borderRadius: '10%'}} />
           </Grid>
         </Grid>
       </Container>
